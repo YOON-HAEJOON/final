@@ -336,14 +336,7 @@ html, body
 
 @font-face{
     font-family: JalnanOTF;
-    src:url(JalnanOTF.otf);
-    font-weight:normal;
-}
-
-@font-face{ 
-    font-family:Spoqa Han sansttf;
-    src:url(Spoqa Han Sans Regular.ttf);
-    src:url(Spoqa Han Sans Bold.ttf);
+    src:url(../src/JalnanOTF.otf);
     font-weight:normal;
 }
 

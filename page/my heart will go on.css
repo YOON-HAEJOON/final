@@ -333,10 +333,9 @@
 
 @font-face{
     font-family: JalnanOTF;
-    src:url(JalnanOTF.otf);
+    src:url(../src/JalnanOTF.otf);
     font-weight:normal;
 }
-
 
 
 .screen{
