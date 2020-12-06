@@ -321,6 +321,7 @@
 		text-transform: uppercase;
 		font-size: 0.90em;
 		color: rgba(0,0,0,0.5);
+        font-family: sans-serif;
 	}
 
 	
@@ -333,13 +334,13 @@
 	#menu ul
 	{
 		text-align: center;
-        font-family: KoPubWorld Dotum_Pro Medium;
+        
 	}
 	
 	#menu li
 	{
 		display: inline-block;
-        font-family: KoPubWorld Dotum_Pro Medium;
+        font-family:sans-serif;
 	}
 	
 	#menu li a, #menu li span
@@ -548,6 +549,7 @@ td2{
 	{
 		letter-spacing: 0.10em;
 		text-align: center;
+        font-family: sans-serif;
 	}
 	
 	#three_contents .title h2
