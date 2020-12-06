@@ -1,0 +1,351 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+        margin-top: 35px;
+		padding: 0px;
+		background-image: url(../src/photo_bg.png);
+		font-family:Spoqa Han sansttf;
+		font-size: 12pt;
+		color: #444444;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+
+
+
+
+	ul.style1
+	{
+		margin: 0 auto;
+        margin-top: 120px;
+		padding: 0;
+		width: 80%;
+		overflow: hidden;
+		list-style: none;
+		text-align: left;
+		color: #6c6c6c
+	}
+	
+	ul.style1 li
+	{
+		padding: 1.6em 0em 0em 0em;
+		margin: 0 0 2.5em 0;
+		border-top: 1px solid rgba(0,0,0,.1); 
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: none;
+	}
+	
+	ul.style1 p
+	{
+		margin: 0;
+	}
+	
+	ul.style1 a
+	{
+		display: block;
+		text-decoration: none;
+		color: #464965;
+    
+	}
+	
+	ul.style1 a:hover
+	{
+		text-decoration: underline;
+	}
+	
+	ul.style1 h3
+	{
+		padding: 1em 0em 5px 0em;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 400;
+	}
+	
+	ul.style1 .first
+	{
+		padding-top: 0;
+		background: none;
+	}
+	
+	ul.style1 .infor
+	{
+		float: left;
+		position: relative;
+		width: 80px;
+		height: 60px;
+		margin: 0.1em 2.0em 0em 0.5em;
+		padding: 1.5em 0.3em 0em 0em;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+		font-size: 1em;
+		font-weight: 400;
+		border-right: 4px solid #3143ef; 
+        font-family:Spoqa Han sansttf;
+	}
+	
+	ul.style1 .infor:after
+	{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 6px;
+	}
+	
+	ul.style1 .infor b
+	{
+		margin: 0;
+		padding:0;
+		display: block;
+		margin-top: -25px;
+        margin-right: 20px;
+		font-size: 1.2em;
+		font-weight: 500;
+        color:#3143ef;
+	}
+	
+	
+	ul.style1 .infor a:hover
+	{
+		text-decoration: none;
+	}
+
+
+
+	.title
+	{
+		margin-top:50px;
+	}
+	
+
+	.title h2
+	{
+		color: #3143ef;
+		font-size: 2.5em;
+	}
+	
+	.title .subline
+	{
+		margin-top: 10px;
+        font-size: 1.3em;
+		color: #464965;
+	}
+		
+
+	#header
+	{
+		position: relative;
+		float: left;
+		width: 300px;
+		padding: 3em 0em;
+	}
+
+.container{
+   margin:80px;
+    margin-top: 0px;
+}
+
+
+	#logo
+	{
+		text-align: center;
+		margin-bottom: 4em;
+        font-family: JalnanOTF;
+	}
+	
+	#logo h1
+	{
+		display: block;
+        text-shadow: rgba(0,0,0,0.5) 3px 3px, rgba(0,0,0,0.3) 3px 1px, rgba(0,0,0,0.3) 2px 1px, rgba(0,0,0,0.3) 1px 2px;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #f2d1e4;
+	}
+	
+	#logo span
+	{
+		padding-right: 0.5em;
+		font-size: 0.90em;
+        font-family: Spoqa Han sansttf;
+		color:#f2d1e4;
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.5);
+	}
+
+
+
+
+	
+	#menu li
+	{
+		border-top: 1px solid rgba(255,255,255,0.08);
+        font-family: 'Pontano Sans', sans-serif;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		padding: 2em 1.5em;
+		text-align: center;
+		text-decoration:  none;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #f2d1e4;
+	}
+	
+
+	#menu .click_now a
+	{
+		background: #ffdff1;
+		color: #3143ef;
+
+	}
+	
+    #menu a:hover{
+    background-color: #6b79ff;
+    color:white;
+}
+
+
+   
+	
+
+	#banner
+	{
+		margin-bottom: 4em;
+	}
+
+
+	#page
+	{
+		background: #3143ef;
+
+	}
+
+
+	#main
+	{
+		overflow: hidden;
+		float:none;
+		width: 1200px;
+		padding: 3em 50px 5em 50px;
+		background: #ffdff1;
+		border-top: 6px solid #3143ef;
+		text-align: center;
+	}
+
+
+
+	#info
+	{
+		overflow: hidden;
+		margin-bottom: 3em;
+		padding-top: 5em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+
+
+
+	
+
+    #copyright
+	{
+		overflow: hidden;
+        padding-top: 10em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+      
+	}
+	
+	#copyright span
+	{
+		display: block;
+		letter-spacing: 0.20em;
+		line-height: 2.5em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #3143ef;
+	}
+
+
+
+
+
+    #head1
+	{
+		overflow: hidden;
+
+	}
+
+	
+   #menue{
+   padding-left: 100px;
+    padding-bottom: 0px;
+       margin-bottom: -10px;
+      
+}
+
+
+@font-face{
+    font-family: JalnanOTF;
+    src:url(JalnanOTF.otf);
+    font-weight:normal;
+}
+
+@font-face{ 
+    font-family:Spoqa Han sansttf;
+    src:url(Spoqa Han Sans Regular.ttf);
+    src:url(Spoqa Han Sans Bold.ttf);
+    font-weight:normal;
+}
+
+
+.screen{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
