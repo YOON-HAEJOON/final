@@ -9,7 +9,7 @@
         margin-top: 35px;
 		padding: 0px;
 		background-image: url(../src/photo_bg.png);
-		font-family:Spoqa Han sansttf;
+		font-family:font-family:sans-serif;
 		font-size: 12pt;
 		color: #444444;
 	}
@@ -109,7 +109,7 @@
 		font-size: 1em;
 		font-weight: 400;
 		border-right: 4px solid #3143ef; 
-        font-family:Spoqa Han sansttf;
+        font-family:sans-serif;
 	}
 	
 	ul.style1 .infor:after
@@ -182,7 +182,7 @@
 	{
 		text-align: center;
 		margin-bottom: 4em;
-        font-family: JalnanOTF;
+        
 	}
 	
 	#logo h1
@@ -195,19 +195,21 @@
 	{
 		text-decoration: none;
 		color: #f2d1e4;
+         font-family: JalnanOTF;
 	}
 	
 	#logo span
 	{
 		padding-right: 0.5em;
 		font-size: 0.90em;
-        font-family: Spoqa Han sansttf;
+        font-family:sans-serif;
 		color:#f2d1e4;
 	}
 
 	#logo span a
 	{
 		color: rgba(255,255,255,0.5);
+        font-family: sans-serif;
 	}
 
 
@@ -217,7 +219,7 @@
 	#menu li
 	{
 		border-top: 1px solid rgba(255,255,255,0.08);
-        font-family: 'Pontano Sans', sans-serif;
+        font-family:sans-serif;
 	}
 	
 	#menu li a, #menu li span
@@ -280,6 +282,7 @@
 		margin-bottom: 3em;
 		padding-top: 5em;
 		border-top: 1px solid rgba(0,0,0,0.08);
+        font-family: sans-serif;
 	}
 
 
@@ -292,6 +295,7 @@
 		overflow: hidden;
         padding-top: 10em;
 		border-top: 1px solid rgba(0,0,0,0.08);
+        font-family: sans-serif;
       
 	}
 	
@@ -304,6 +308,7 @@
 		text-transform: uppercase;
 		font-size: 0.80em;
 		color: #3143ef;
+        font-family: sans-serif
 	}
 
 
@@ -331,12 +336,6 @@
     font-weight:normal;
 }
 
-@font-face{ 
-    font-family:Spoqa Han sansttf;
-    src:url(Spoqa Han Sans Regular.ttf);
-    src:url(Spoqa Han Sans Bold.ttf);
-    font-weight:normal;
-}
 
 
 .screen{

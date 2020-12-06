@@ -18,7 +18,7 @@
 	}
 
 	body {
-		font-family:Spoqa Han sansttf;
+		font-family:sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -30,6 +30,7 @@
 
 	p {
 		margin: 0 0 2rem 0;
+        font-family:sans-serif;
 	}
 
 		p:last-child {
@@ -38,6 +39,7 @@
 
 		
 	h1, h2, h3 {
+        font-family:sans-serif;
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -351,7 +353,7 @@
 		}
 
 			#header > .logo a {
-                font-family:Spoqa Han sansttf;
+                font-family:sans-serif;
 				font-size: 4rem;
 				font-weight: 700;
 				color: white;
@@ -360,7 +362,7 @@
 			}
 
 			#header > .logo span {
-                font-family:Spoqa Han sansttf;
+              font-family:sans-serif;
 				
 				font-size: 1rem;
 				display: block;
@@ -484,7 +486,7 @@
 
 	.wrapper.style1 .content {
 		padding: 6rem;
-        font-family:Spoqa Han sansttf;
+        font-family:sans-serif;
         color:black;
 	}
 
@@ -586,9 +588,3 @@
 	
 
 
-@font-face{ 
-    font-family:Spoqa Han sansttf;
-    src:url(Spoqa Han Sans Regular.ttf);
-    src:url(Spoqa Han Sans Bold.ttf);
-    font-weight:normal;
-}

@@ -163,6 +163,7 @@ html, body
 		margin-top: 10px;
         font-size: 1.3em;
 		color: #464965;
+        font-family:sans-serif;
 	}
 		
 
@@ -282,6 +283,7 @@ html, body
 		margin-bottom: 3em;
 		padding-top: 5em;
 		border-top: 1px solid rgba(0,0,0,0.08);
+        font-family: sans-serif;
 	}
 
 
@@ -294,6 +296,7 @@ html, body
 		overflow: hidden;
         padding-top: 10em;
 		border-top: 1px solid rgba(0,0,0,0.08);
+        font-family: sans-serif;
       
 	}
 	
@@ -306,6 +309,7 @@ html, body
 		text-transform: uppercase;
 		font-size: 0.80em;
 		color: #3143ef;
+        font-family:sans-serif;
 	}
 
 
@@ -330,13 +334,6 @@ html, body
 @font-face{
     font-family: JalnanOTF;
     src:url(JalnanOTF.otf);
-    font-weight:normal;
-}
-
-@font-face{ 
-    font-family:Spoqa Han sansttf;
-    src:url(Spoqa Han Sans Regular.ttf);
-    src:url(Spoqa Han Sans Bold.ttf);
     font-weight:normal;
 }
 
