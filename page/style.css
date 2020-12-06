@@ -339,6 +339,7 @@
 	#menu li
 	{
 		display: inline-block;
+        font-family: KoPubWorld Dotum_Pro Medium;
 	}
 	
 	#menu li a, #menu li span
