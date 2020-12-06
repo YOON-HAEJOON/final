@@ -9,7 +9,7 @@
         margin-top: 35px;
 		padding: 0px;
 		background: #fed1e4;
-		font-family: KoPubWorld Dotum_Pro;
+		font-family: font-family: KoPubWorld Dotum_Pro Medium;
 		font-size: 12pt;
 		color: #000000;
 	}
@@ -26,6 +26,7 @@
 	p, ol, ul
 	{
 		margin-top: 0;
+        font-family: sans-serif;
 	}
 	
 	ol, ul
@@ -333,6 +334,7 @@
 	#menu ul
 	{
 		text-align: center;
+        font-family: sans-serif;
 	}
 	
 	#menu li
@@ -529,6 +531,7 @@ td2{
 		overflow: hidden;
 		text-align: center;
 		color: #3143ef;
+        font-family: sans-serif;
        
 	}
 	
@@ -575,7 +578,7 @@ td2{
 
 
 @font-face{
-    font-family: KoPubWorld Dotum_Pro;
+    font-family: KoPubWorld Dotum_Pro Medium;
     src:url(KoPubWorld Dotum_Pro Medium.otf);
     font-weight:normal;
 }

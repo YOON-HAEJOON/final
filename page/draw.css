@@ -15,7 +15,6 @@ html, body
         margin-top: 35px;
 		padding: 0px;
 		background: #f2d1e4;
-		font-family: KoPubWorld Dotum_Pro;
 		font-size: 12pt;
 		color: #000000;
     
@@ -197,6 +196,7 @@ html, body
 	#menu li
 	{
 		display: inline-block;
+        font-family: sans-serif;
 	}
 	
 	#menu li a, #menu li span
@@ -651,7 +651,7 @@ td2{
 
 .inform{
     color: #f2d1e4;
-    font-family: sans-serif;
+    font-family:serif;
     width: 150px;
     float:right;
     text-align:justify;
